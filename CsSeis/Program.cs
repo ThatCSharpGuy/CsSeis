@@ -75,9 +75,9 @@ namespace CsSeis
 
             WriteLine($"Default person parent name: {defaultPersonParentName}");
 
-            string juanitosParentName = juanito.Parent?.Name;
+            int? juanitosParentAge = juanito.Parent?.Age;
 
-            WriteLine($"Juanito's parent name: {juanitosParentName}");
+            WriteLine($"Juanito's parent age: {juanitosParentName}");
 
             #endregion
 
