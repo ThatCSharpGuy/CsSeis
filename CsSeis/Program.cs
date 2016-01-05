@@ -77,7 +77,9 @@ namespace CsSeis
 
             int? juanitosParentAge = juanito.Parent?.Age;
 
-            WriteLine($"Juanito's parent age: {juanitosParentName}");
+			WriteLine($"Juanito's parent age: {juanitosParentAge}");
+
+			var juanitosGrandGrandGrandParent = juanito.Parent?.Parent?.Parent?.Parent;
 
             #endregion
 
